@@ -1,5 +1,8 @@
 const App = () => (
   <div>
+  <BasicButton />
+  <BasicInput />
+  <Header />
 
     const BasicButton = () => {
       return <button>Click Me</button>;
@@ -12,6 +15,12 @@ const App = () => (
     const Header = () => {
       return <h1> hi </h1>;
     };
+
+    const myElement = (
+      <div>
+        <h1>Hello 1</h1>
+      </div>
+  );
 
   </div>
 );
