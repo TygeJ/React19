@@ -1,14 +1,17 @@
 const App = () => (
   <div>
 
-    const BasicButton = () => (
+    const BasicButton = () => {
       return <button>Click Me</button>;
-    );
+    };
 
-    const BasicInput = () => (
-      return <input type="text"
-    )
+    const BasicInput = () => {
+      return <input type="text" placeholder="some test" />;
+    };
 
+    const Header = () => {
+      return <h1> hi </h1>;
+    };
 
   </div>
 );
